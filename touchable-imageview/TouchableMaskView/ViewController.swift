@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     // MARK: - The Important View
     
     func setupTappableIsland() {
-        let islandImageView = TouchableMaskView()
+        let islandImageView = IgnoreClearPixelsImageView()
         let islandImage = #imageLiteral(resourceName: "island")
         islandImageView.image = islandImage
         islandImageView.isUserInteractionEnabled = true
@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         label.text = (label.text ?? "") + "🏝"
     }
     
-    // MARK: Unimportant Views
+    // MARK: - Unimportant Views
     
     func setupBackground() {
         let skyImageView = UIImageView()

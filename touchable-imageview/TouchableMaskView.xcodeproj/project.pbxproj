@@ -15,8 +15,8 @@
 		85945E5320464AFF000E4E1A /* Constraints+Activation+Priority.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E4F20464AFF000E4E1A /* Constraints+Activation+Priority.swift */; };
 		85945E5420464AFF000E4E1A /* Constrainable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5020464AFF000E4E1A /* Constrainable.swift */; };
 		85945E5520464AFF000E4E1A /* UIView+Constraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5120464AFF000E4E1A /* UIView+Constraints.swift */; };
-		85945E5920464B1A000E4E1A /* TouchableMaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5620464B1A000E4E1A /* TouchableMaskView.swift */; };
-		85945E5A20464B1A000E4E1A /* UIColor+ColorAtImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5720464B1A000E4E1A /* UIColor+ColorAtImage.swift */; };
+		85945E5920464B1A000E4E1A /* IgnoreClearPixelsImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5620464B1A000E4E1A /* IgnoreClearPixelsImageView.swift */; };
+		85945E5A20464B1A000E4E1A /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5720464B1A000E4E1A /* UIColor+Extensions.swift */; };
 		85945E5B20464B1A000E4E1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85945E5820464B1A000E4E1A /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,8 +31,8 @@
 		85945E4F20464AFF000E4E1A /* Constraints+Activation+Priority.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraints+Activation+Priority.swift"; sourceTree = "<group>"; };
 		85945E5020464AFF000E4E1A /* Constrainable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constrainable.swift; sourceTree = "<group>"; };
 		85945E5120464AFF000E4E1A /* UIView+Constraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Constraints.swift"; sourceTree = "<group>"; };
-		85945E5620464B1A000E4E1A /* TouchableMaskView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TouchableMaskView.swift; sourceTree = "<group>"; };
-		85945E5720464B1A000E4E1A /* UIColor+ColorAtImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+ColorAtImage.swift"; sourceTree = "<group>"; };
+		85945E5620464B1A000E4E1A /* IgnoreClearPixelsImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IgnoreClearPixelsImageView.swift; sourceTree = "<group>"; };
+		85945E5720464B1A000E4E1A /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		85945E5820464B1A000E4E1A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,10 +66,9 @@
 		85945E3120464AB7000E4E1A /* TouchableMaskView */ = {
 			isa = PBXGroup;
 			children = (
+				9B22416220467D8D00DA66F0 /* IgnoreClearPixelsView */,
 				85945E4D20464ADC000E4E1A /* Autolayout */,
 				85945E3220464AB7000E4E1A /* AppDelegate.swift */,
-				85945E5620464B1A000E4E1A /* TouchableMaskView.swift */,
-				85945E5720464B1A000E4E1A /* UIColor+ColorAtImage.swift */,
 				85945E5820464B1A000E4E1A /* ViewController.swift */,
 				85945E3620464AB7000E4E1A /* Main.storyboard */,
 				85945E3920464AB7000E4E1A /* Assets.xcassets */,
@@ -88,6 +87,15 @@
 				85945E5120464AFF000E4E1A /* UIView+Constraints.swift */,
 			);
 			path = Autolayout;
+			sourceTree = "<group>";
+		};
+		9B22416220467D8D00DA66F0 /* IgnoreClearPixelsView */ = {
+			isa = PBXGroup;
+			children = (
+				85945E5620464B1A000E4E1A /* IgnoreClearPixelsImageView.swift */,
+				85945E5720464B1A000E4E1A /* UIColor+Extensions.swift */,
+			);
+			path = IgnoreClearPixelsView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -162,11 +170,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85945E5920464B1A000E4E1A /* TouchableMaskView.swift in Sources */,
+				85945E5920464B1A000E4E1A /* IgnoreClearPixelsImageView.swift in Sources */,
 				85945E3320464AB7000E4E1A /* AppDelegate.swift in Sources */,
 				85945E5B20464B1A000E4E1A /* ViewController.swift in Sources */,
 				85945E5320464AFF000E4E1A /* Constraints+Activation+Priority.swift in Sources */,
-				85945E5A20464B1A000E4E1A /* UIColor+ColorAtImage.swift in Sources */,
+				85945E5A20464B1A000E4E1A /* UIColor+Extensions.swift in Sources */,
 				85945E5520464AFF000E4E1A /* UIView+Constraints.swift in Sources */,
 				85945E5220464AFF000E4E1A /* NibView.swift in Sources */,
 				85945E5420464AFF000E4E1A /* Constrainable.swift in Sources */,

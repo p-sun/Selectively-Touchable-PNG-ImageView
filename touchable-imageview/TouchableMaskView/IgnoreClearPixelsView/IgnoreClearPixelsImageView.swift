@@ -1,5 +1,5 @@
 //
-//  TouchableMaskView.swift
+//  IgnoreClearPixelsImageView.swift
 //  InteractionMask
 //
 //  Created by TSD040 on 2018-02-27.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TouchableMaskView: UIImageView {
+class IgnoreClearPixelsImageView: UIImageView {
     
     override func point(inside point: CGPoint, with event: UIEvent?) -> Bool {
         guard let image = image, let cgImage = image.cgImage else { return false }
