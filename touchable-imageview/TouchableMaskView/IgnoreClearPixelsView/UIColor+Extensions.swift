@@ -82,7 +82,7 @@ extension UIColor {
         case .premultipliedFirst:
             color = UIColor(red: CGFloat(data[index + 2]) / 255.0,
                             green: CGFloat(data[index + 1]) / 255.0,
-                            blue: CGFloat(data[index + 2]) / 255.0,
+                            blue: CGFloat(data[index]) / 255.0,
                             alpha: CGFloat(data[index + 3]) / 255.0)
         }
         
